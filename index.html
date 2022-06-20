@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Mandelbrot Set in the Projective Plane</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='public/style.css'>
+</head>
+
+<body>
+  <div id="header">
+    Header
+  </div>
+  <div id="menu">
+    <div class="slidecontainer">
+      θ:
+      <input id="theta" step="1" type="range" min="0" max="180" value="0" class="slider">
+      <br>
+      tx:
+      <input id="tx" type="range" min="-100" max="100" value="0" class="slider">
+      <br>
+      ty:
+      <input id="ty" type="range" min="-100" max="100" value="0" class="slider">
+      <br>
+      s:
+      <input id="s" type="range" min="1" max="2" value="1" class="slider" step="0.01">
+      <hr>
+      α
+      <input id="alpha" step="1" type="range" min="0" max="180" value="0" class="slider">
+      <br>
+      λ1:
+      <input id="lambda1" step="0.01" type="range" min="0" max="1" value="1" class="slider">
+      <br>
+      λ2:
+      <input id="lambda2" step="0.01" type="range" min="0" max="1" value="1" class="slider">
+      <br>
+      φ
+      <input id="phi" step="1" type="range" min="0" max="180" value="0" class="slider">
+      <br>
+      <hr>
+      β
+      <input id="beta" step="1" type="range" min="0" max="180" value="0" class="slider">
+      <br>
+      k
+      <input id="k" type="range" min="-8" max="8" value="0.01" class="slider" step="0.01">
+      <br>
+      λ:
+      <input id="lambda" step="0.01" type="range" min="0" max="2" value="0.01" class="slider">
+      <br>
+      v1:
+      <input id="v1" step="0.0001" type="range" min="0" max="0.01" value="0.0001" class="slider">
+      <br>
+      v2:
+      <input id="v2" step="0.0001" type="range" min="0" max="0.01" value="0.0002" class="slider">
+      <br>
+      v:
+      <input id="v" step="1" type="range" min="0" max="1" value="1" class="slider">
+      <br>
+    </div>
+  </div>
+  <div id="content">
+    <canvas id="stage" width="500" height="500"></canvas>
+  </div>
+  <div id="sidebar">
+    <ul>
+      Isometria
+      <hr>
+      <li>Angulo</li>
+      <li>tx</li>
+      <li>ty</li>
+    </ul>
+    <ul>
+      Similaridade
+      <hr>
+      <li>Escala</li>
+    </ul>
+  </div>
+  <div id="footer">
+    Footer
+  </div>
+</body>
+<script type="module" src='public/index.js'></script>
+
+</html>

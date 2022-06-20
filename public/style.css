@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 10px;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+#header {
+  height: 150px;
+  background-color: orange;
+}
+
+#menu {
+  padding: 5px;
+  height: 600px;
+  width: 300px;
+  background-color: greenyellow;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#content {
+  height: 600px;
+  width: 600px;
+  background-color: lightgray;
+  float: left;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 2px;
+}
+
+#sidebar {
+  height: 600px;
+  width: 250px;
+  background-color: lightseagreen;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#footer {
+  height: 100px;
+  background-color: pink;
+  clear: both;
+  margin-top: 10px;
+}
